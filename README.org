@@ -1,0 +1,14 @@
+#+TITLE: pi-clock
+
+A (dangerously) simple LED clock display driver for the Raspberry Pi.
+
+** Get started
+- Install the [[http://www.airspayce.com/mikem/bcm2835/index.html][bcm2835]] library.
+- Clone the repo.
+- Edit =pi-clock.h= to identify the GPIO pins you're using for your display's pins.
+- =make && sudo ./pi-clock=
+
+** Commentary
+Not yet; there's an absurdly long blog post on this coming, just as soon as I finish revamping my blog to suck less so I can update it more than once a year. Stay tuned.
+
+If you want to talk about it in the meanwhile, [[mailto:me@aaron-miller.me][email me]].
